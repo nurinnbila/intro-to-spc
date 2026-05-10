@@ -248,3 +248,26 @@ We can observe the median, quartiles, and potential outliers in weight for both 
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Height vs. Weight by Sex
+
+This scatterplot visualizes the relationship between height and weight, with points colored according to the sex of the individuals in the `bigclass` dataset.
+
+- **Female Color**: Okabe-Ito Green (`#009E73`)
+- **Male Color**: Okabe-Ito Blue (`#0072B2`)
+
+::: {.notes}
+We can observe if there are distinct patterns or clusters for height and weight distributions between different sexes.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/height_weight_scatterplot_by_sex.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
