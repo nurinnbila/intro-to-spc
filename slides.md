@@ -133,3 +133,26 @@ The work done $W$ is positive when the system expands against an external pressu
 
 # Bibliography
 <div id="refs"></div>
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Score Distribution
+
+This histogram visualizes the distribution of Math scores in the `bigclass` dataset.
+
+- **Binwidth**: 50 points
+- **Color**: Okabe-Ito Blue (`#0072B2`)
+
+::: {.notes}
+We observe the frequency of different Math score ranges. This helps in understanding the central tendency and spread of the scores.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/math_scores_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
