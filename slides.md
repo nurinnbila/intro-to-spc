@@ -156,3 +156,26 @@ We observe the frequency of different Math score ranges. This helps in understan
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Age Distribution
+
+This histogram visualizes the distribution of age in the `bigclass` dataset.
+
+- **Binwidth**: 1 year
+- **Color**: Okabe-Ito Orange (`#D55E00`)
+
+::: {.notes}
+We observe the frequency of different age groups. This provides insights into the age demographics of the dataset.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/age_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
