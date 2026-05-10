@@ -179,3 +179,26 @@ We observe the frequency of different age groups. This provides insights into th
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Average Math Score by Sex
+
+This bar chart illustrates the average Math scores for different sexes in the `bigclass` dataset.
+
+- **Female Color**: Okabe-Ito Green (`#009E73`)
+- **Male Color**: Okabe-Ito Blue (`#0072B2`)
+
+::: {.notes}
+We can observe potential differences in average Math performance between male and female students.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/average_math_by_sex_barchart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
