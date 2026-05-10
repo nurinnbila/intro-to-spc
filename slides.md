@@ -202,3 +202,49 @@ We can observe potential differences in average Math performance between male an
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution by Sex
+
+This boxplot visualizes the distribution of weight, grouped by sex, in the `bigclass` dataset.
+
+- **Female Color**: Okabe-Ito Green (`#009E73`)
+- **Male Color**: Okabe-Ito Blue (`#0072B2`)
+
+::: {.notes}
+We can observe the median, quartiles, and potential outliers in weight for both male and female students.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/weight_boxplot_by_sex.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution by Sex
+
+This boxplot visualizes the distribution of weight, grouped by sex, in the `bigclass` dataset.
+
+- **Female Color**: Okabe-Ito Green (`#009E73`)
+- **Male Color**: Okabe-Ito Blue (`#0072B2`)
+
+::: {.notes}
+We can observe the median, quartiles, and potential outliers in weight for both male and female students.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/weight_boxplot_by_sex.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
