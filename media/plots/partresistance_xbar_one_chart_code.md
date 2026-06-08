@@ -1,5 +1,5 @@
 # Filter the X025 dataset for Machine 1, Temperature 338, and Pressure 200
-data_filtered <- X025 %>!
+data_filtered <- X025 %>%
   filter(Machine == 1, Temperature == 338, Pressure == 200)
 
 # Create an xbar.one control chart for PartResistance
