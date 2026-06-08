@@ -488,3 +488,29 @@ We examine the distribution of PartLength relative to these assumed specificatio
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar.one Control Chart for PartResistance (Machine 3)
+
+This Xbar.one control chart monitors the `PartResistance` for products manufactured under specific conditions:
+
+- **Machine**: 3
+- **Temperature**: 338
+- **Pressure**: 200
+
+The chart displays individual observations, the center line (CL), and the upper and lower control limits (UCL and LCL).
+
+::: {.notes}
+We can observe if the manufacturing process for PartResistance is in statistical control or if there are any out-of-control signals that require investigation.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partresistance_xbar_one_chart_m3.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
