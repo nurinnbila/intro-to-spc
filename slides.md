@@ -323,3 +323,32 @@ We can observe if the manufacturing process for PartResistance is in statistical
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Process Capability Chart for PartLength
+
+This chart assesses the process capability for `PartLength` under specific conditions:
+
+- **Machine**: 1
+- **Temperature**: 338K
+- **Pressure**: 200kPa
+
+**Assumed Specification Limits:**
+- **Lower Specification Limit (LSL)**: 45 (Pink: `#CC79A7`)
+- **Upper Specification Limit (USL)**: 55 (Pink: `#CC79A7`)
+- **Target**: 50 (Black: `#000000`)
+
+::: {.notes}
+We examine the distribution of PartLength relative to these assumed specification limits to understand how well the process is performing within acceptable boundaries. A normal distribution curve is overlaid for comparison.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partlength_process_capability_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
