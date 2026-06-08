@@ -11,7 +11,7 @@ mean_resistance <- mean(data_filtered$PartResistance)
 sd_resistance <- sd(data_filtered$PartResistance)
 
 p_capability <- ggplot(data_filtered, aes(x = PartResistance)) +
-  geom_histogram(aes(y = after_stat(density)), binwidth = 0.1, fill = '#0072B2', color = 'white', alpha = 0.8) +
+  geom_histogram(aes(y = after_stat(density)), binwidth = 0.05, fill = '#0072B2', color = 'white', alpha = 0.6) +
   stat_function(fun = dnorm, args = list(mean = mean_resistance, sd = sd_resistance), color = '#D55E00', linewidth = 2) +
   geom_vline(xintercept = lsl, linetype = 'dashed', color = '#CC79A7', size = 1) +
   geom_vline(xintercept = usl, linetype = 'dashed', color = '#CC79A7', size = 1) +
