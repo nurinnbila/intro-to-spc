@@ -433,3 +433,29 @@ We can observe if the manufacturing process is in statistical control or if ther
 :::
 
 ::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Xbar.one Control Chart for PartLength (Machine 2)
+
+This Xbar.one control chart monitors the `PartLength` for products manufactured under specific conditions:
+
+- **Machine**: 2
+- **Temperature**: 338
+- **Pressure**: 200
+
+The chart displays individual observations, the center line (CL), and the upper and lower control limits (UCL and LCL).
+
+::: {.notes}
+We can observe if the manufacturing process for PartLength is in statistical control or if there are any out-of-control signals that require investigation.
+:::
+
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/partlength_xbar_one_chart_m2.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+
+::::
